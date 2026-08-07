@@ -1,1 +1,1 @@
-console.log('Welcome to Kancell AI');
+document.querySelectorAll('.card').forEach(c=>c.onmouseenter=()=>c.style.boxShadow='0 0 30px rgba(79,124,255,.35)');document.querySelectorAll('.card').forEach(c=>c.onmouseleave=()=>c.style.boxShadow='none');
